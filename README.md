@@ -16,11 +16,12 @@
 ## Running
 `./GenerateTraining [config file]`
 
-: Generates a training file to be used by FANN
-: The config file simply lists an image location and a label for the capcha image separated by a comma.
+Generates a training file to be used by FANN. The config file simply lists an image location and a label for the capcha image separated by a comma.
+
 `TrainFann [trainingData.txt] [NetworkName.net]`
 
-: Trains FANN using the trainingData.txt and saves the ANN to NetworkName.net.
+Trains FANN using the trainingData.txt and saves the ANN to NetworkName.net.
+
 `SanityTest`
 
-: Test on a small sample
+Test on a small sample
